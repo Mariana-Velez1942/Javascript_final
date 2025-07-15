@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario Evento</title>
+  <link rel="stylesheet" href="/styles/events.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Perfil Admin</h2>
+      <nav>
+        <a href="/visitor/inscription.html">Enrollments</a>
+        <a href="/visitor/see_events_inscript.html">Events</a>
+        <a href="/index/login.html">Logout</a>
+      </nav>
+    </aside>
+    
+    <main class="content">
+        <main>
+            <form id="login-form" class="form-container">
+              <h2>Create event</h2>
+                <h3>Name</h3>
+              <input type="text" id="identifier" placeholder="name" required />
+              <h3>Description</h3>
+              <input type="text" id="description" placeholder="description" required />
+
+              <h3>Day</h3>
+              <input type="number" id="day" placeholder="description-day" required />
+
+              <h3>Capacity</h3>
+              <input type="number" id="capacity" placeholder="description-capacity" required />
+              <div class="link">
+              </div>
+            </form>
+          </main>
+        <div class="form-buttons">
+          <button type="button" class="btn delete">Cancelar</button>
+          <button type="submit" class="btn">Guardar</button>
+        </div>
+      </form>
+    </main>
+  </div>
+  <script src="/js/main.js"></script>
+</body>
+</html>
+
